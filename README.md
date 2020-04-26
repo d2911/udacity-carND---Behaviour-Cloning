@@ -35,7 +35,8 @@ Non-Linearity in the model is achieved by using “relu” activation.
 ### Has an attempt been made to reduce overfitting of the model?
 
 The complete data available for training is shuffled and 10% of data is used for validation. Overfitting of the model is taken care by “Early termination” approach. During training epochs was started at 10 and could clearly see validation loss increases from epoch=3 onwards and early termination was applied and stopped training at epoch=2  
-`model.fit(X_train, y_train, validation_split=0.1, shuffle=True, epochs=2)`  
+`model.fit(X_train, y_train, validation_split=0.1, shuffle=True, epochs=2)`
+
 ![](/Readme_img/2.jpg)
 
 ### Have the model parameters been tuned appropriately?
